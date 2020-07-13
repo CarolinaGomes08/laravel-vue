@@ -7,6 +7,7 @@
 
 require('./bootstrap');
 
+
 window.Vue = require('vue');
 
 /**
@@ -17,6 +18,8 @@ window.Vue = require('vue');
 
 Vue.component('topo', require('./components/Topo.vue'));
 Vue.component('painel', require('./components/Painel.vue'));
+Vue.component('caixa', require('./components/Caixa.vue'));
+Vue.component('ios-alert', require('vue-ionicons/dist/ios-alert.vue'));
 
 const app = new Vue({
     el: '#app'
