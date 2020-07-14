@@ -9,19 +9,13 @@
 
                     <div class="row">
                         <div class="col-md-4">
-                            <caixa></caixa>                 
+                            <caixa qtd="80" titulo="Artigos" url="#" icone="ion ion-ios-paper" cor="orange"></caixa>                 
                         </div>
                         <div class="col-md-4">
-                            <painel titulo="Conteúdo 2" cor="panel-warning">
-                                Teste de conteúdo do painel!
-
-                            </painel>
+                            <caixa qtd="107" titulo="Shopping" url="#" icone="fa fa-shopping-cart" cor="blue"></caixa>                 
                         </div>
                         <div class="col-md-4">
-                            <painel titulo="Conteúdo 3" cor="orange">
-                                Teste de conteúdo do painel!
-
-                            </painel>
+                            <caixa qtd="150" titulo="Leitores" url="#" icone="ion ion-person-add" cor="red"></caixa>                 
                         </div>
                     </div>
                 </painel>
